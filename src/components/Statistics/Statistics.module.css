@@ -1,0 +1,43 @@
+.title{
+    font-size: larger;
+    font-weight: bold;
+}
+.statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid gray;
+    box-shadow: 4px 4px 2px rgb(114, 148, 148);
+    border-radius: 5px;
+    width: 308px;
+    padding: 8px;
+    margin: 20px auto;
+
+}
+.stats{
+display: flex;
+gap: 10px;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid gray;
+    background-color: rgb(80, 126, 126);
+    border-radius: 5px;
+    width: 50px;
+}
+.label{
+    font-size:smaller;
+    font-weight: bold;
+    color: white;
+}
+.percentage{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
